@@ -1,18 +1,23 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
+import classnames from "classnames";
 
-const AppButton = function (props) {
-	const { onClick, children } = props;
+import "./style.css";
+
+const AppButton = function(props) {
+	const { onClick, children, className } = props;
 
 	return (
-		<div className="app-button">
-			<button type="button" onClick={onClick}>{children}</button>
+		<div className={classnames("app-button", className)}>
+			<button type="button" onClick={onClick}>
+				{children}
+			</button>
 		</div>
 	);
 };
 
 AppButton.propTypes = {
-	onClick: PropTypes.func
+	onClick: PropTypes.func,
 };
 
 export default AppButton;

@@ -1,3 +1,11 @@
+/* https://colorhunt.co/palette/265018 */
+
 .App {
 }
 
+.component-test-area {
+	padding: 10px;
+}
+.component-test-area .app-button {
+	margin-top: 15px;
+}

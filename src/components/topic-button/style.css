@@ -1,0 +1,6 @@
+.topic-button {
+}
+
+.topic-button.is-edit input {
+	display: none;
+}

@@ -1,0 +1,9 @@
+.input-button form {
+	display: inline-block;
+	margin-left: 12px;
+}
+
+.input-button form input {
+	border: 0px;
+	border-radius: 4px;
+}
