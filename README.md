@@ -1,4 +1,5 @@
 ## Meeting guide
+demo: https://main.d3fv4fm9tg6gzl.amplifyapp.com/
 ### Outline builder
 * Dynamically build the outline
 * Each level can start with an input if 2 buttons, to be able to add either a topic or a detail
