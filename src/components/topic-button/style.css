@@ -1,6 +1,25 @@
 .topic-button {
 }
+.topic-button form {
+	margin: 0 8px;
+}
+
+.topic-button input:focus {
+	outline: none;
+}
+
+.topic-button input {
+	width: 200px;
+	transition: width 0.25s, border 0.25s, padding 0.25s;
+}
+
+.topic-button.is-edit form {
+	margin: 0 0px;
+}
 
 .topic-button.is-edit input {
-	display: none;
+	width: 0px;
+	border: 0px;
+	padding: 0px;
+	transition: width 0.25s, border 0.25s, padding 0.25s;
 }

@@ -16,8 +16,12 @@ const AppButton = function(props) {
 	);
 };
 
+AppButton.defaultProps = {
+	onClick: () => {}
+};
+
 AppButton.propTypes = {
-	onClick: PropTypes.func,
+	onClick: PropTypes.func
 };
 
 export default AppButton;
