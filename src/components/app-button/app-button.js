@@ -4,24 +4,24 @@ import classnames from "classnames";
 
 import "./style.css";
 
-const AppButton = function(props) {
-	const { onClick, children, className } = props;
+const AppButton = function (props) {
+  const { onClick, children, className } = props;
 
-	return (
-		<div className={classnames("app-button", className)}>
-			<button type="button" onClick={onClick}>
-				{children}
-			</button>
-		</div>
-	);
+  return (
+    <div className={classnames("app-button", className)}>
+      <button type="button" onClick={onClick}>
+        {children}
+      </button>
+    </div>
+  );
 };
 
 AppButton.defaultProps = {
-	onClick: () => {}
+  onClick: () => {},
 };
 
 AppButton.propTypes = {
-	onClick: PropTypes.func
+  onClick: PropTypes.func,
 };
 
 export default AppButton;

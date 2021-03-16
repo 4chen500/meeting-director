@@ -1,3 +1,3 @@
-import InputButton from './input-button';
+import InputButton from "./input-button";
 
 export default InputButton;

@@ -8,6 +8,10 @@
 	outline: none;
 }
 
+.topic-button label {
+	cursor: pointer;
+}
+
 .topic-button input {
 	width: 200px;
 	transition: width 0.25s, border 0.25s, padding 0.25s;
