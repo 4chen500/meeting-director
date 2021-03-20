@@ -1,5 +1,10 @@
 ## Meeting guide
 demo: https://main.d3fv4fm9tg6gzl.amplifyapp.com/
+
+going to change directions on this.
+I don't need to do what I'm doing
+I need to start with a canned text outline editor
+disable the features I don't need, and start with that.
 ### Outline builder
 * Dynamically build the outline
 * Each level can start with an input if 2 buttons, to be able to add either a topic or a detail
